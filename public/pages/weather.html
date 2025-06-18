@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/weather.css" />
+    <title>Earth Weather</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="lado-esquerdo">
+            <a href="../index.html">Earth Weather</a>
+          </div>
+          <div class="lado-direito">
+            <a href="weather.html">Weather Search</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="box-card">
+          <div class="box-title">
+            <h1>Earth Weather</h1>
+          </div>
+          <div class="box-excerpt">
+            <form>
+              <label for="weather"
+                >Insert the city where you want to see the weather:
+              </label>
+              <input
+                name="weather"
+                id="weather"
+                type="text"
+                placeholder="your city/state"
+              />
+              <button id="enviar">submit</button>
+            </form>
+            <div class="result-api"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Earth Weather - 2025</p>
+    </footer>
+    <script src="../script.js"></script>
+  </body>
+</html>

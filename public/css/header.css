@@ -1,0 +1,18 @@
+header {
+  position: sticky;
+  top: 0;
+  user-select: none;
+  background-color: #7979f1;
+  z-index: 10;
+  & .header-content {
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-evenly;
+    & a {
+      font-size: 20px;
+      font-weight: 700;
+      color: white;
+    }
+  }
+}

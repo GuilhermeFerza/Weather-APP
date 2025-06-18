@@ -1,0 +1,8 @@
+@media (max-width: 769px) {
+  p {
+    text-align: center;
+  }
+  section {
+    flex-direction: column;
+  }
+}
