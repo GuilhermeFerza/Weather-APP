@@ -1,18 +1,40 @@
+@import "root.css";
+
 header {
   position: sticky;
   top: 0;
   user-select: none;
-  background-color: #7979f1;
+  background-color: var(--principal-color);
   z-index: 10;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.425);
   & .header-content {
     display: flex;
     height: 5rem;
     align-items: center;
     justify-content: space-evenly;
+    & .lado-esquerdo,
+    .lado-direito {
+      width: 30%;
+    }
+    & .lado-direito {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
     & a {
       font-size: 20px;
       font-weight: 700;
       color: white;
+    }
+    & #sun {
+      display: block;
+    }
+    & #moon {
+      display: none;
+    }
+    & .sun {
+      height: 20px;
+      cursor: pointer;
     }
   }
 }

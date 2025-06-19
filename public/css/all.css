@@ -6,13 +6,16 @@
   word-break: keep-all;
   font-family: "Poppins", "Helvetica";
 }
-
+body {
+  overflow-x: hidden;
+}
 a {
   text-decoration: none;
   color: black;
 }
 
 .container {
+  height: auto;
   width: 90%;
   max-width: 1090px;
   margin: 0 auto;

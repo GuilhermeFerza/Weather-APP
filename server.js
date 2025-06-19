@@ -1,4 +1,5 @@
-require("dotenv").config();
+import dotenv from "dotenv";
+dotenv.config();
 import express from "express";
 const app = express();
 
@@ -36,6 +37,6 @@ const PORT = process.env.PORT || 3000;
 const HOSTNAME = process.env.HOSTNAME || "localhost";
 
 app.listen(PORT, HOSTNAME, () => {
-  console.log("Servidor rodando em http://localhost:3000");
+  console.log(`Servidor rodando em http://localhost:${PORT}`);
   console.log(`servidor rodando em ${HOSTNAME}`);
 });

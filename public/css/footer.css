@@ -1,9 +1,11 @@
+@import "root.css";
+
 footer {
   user-select: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #7979f1;
+  background-color: var(--principal-color);
   color: #ccc;
   height: 5rem;
 }

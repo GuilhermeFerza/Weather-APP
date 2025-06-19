@@ -1,8 +1,16 @@
 @media (max-width: 769px) {
+  .tabela-content {
+    padding: 20px !important;
+    width: auto;
+    height: auto;
+  }
   p {
     text-align: center;
+    margin: 10px auto;
   }
   section {
-    flex-direction: column;
+    text-align: center;
+
+    display: block !important;
   }
 }
